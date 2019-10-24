@@ -1,0 +1,6 @@
+D:\PR\Git\narsha5\Cs\obj\Debug\Cs.csprojAssemblyReference.cache
+D:\PR\Git\narsha5\Cs\bin\Debug\Cs.exe.config
+D:\PR\Git\narsha5\Cs\bin\Debug\Cs.exe
+D:\PR\Git\narsha5\Cs\bin\Debug\Cs.pdb
+D:\PR\Git\narsha5\Cs\obj\Debug\Cs.exe
+D:\PR\Git\narsha5\Cs\obj\Debug\Cs.pdb
