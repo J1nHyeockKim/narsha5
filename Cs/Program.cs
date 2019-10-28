@@ -45,7 +45,33 @@ namespace Cs
         public int personeNum { get; set; }
         public string personeName { get; set; }
         public string phonenum { get; set; }
-        public string department { get; set; }
+
+        private string _department = null;
+        public string department {
+            get
+            {
+                return _department;
+            }
+
+            set
+            {
+                switch (_department = value)
+                {
+                    case "인사팀":
+                        _department = value;
+                        break;
+                    case "개발팀":
+                        _department = value;
+                        break;
+                    case "디자인팀":
+                        _department = value;
+                        break;
+                    default:
+                        Console.WriteLine("Error, 부서가 잘못 되었습니다.");
+                        break;
+                }
+            }
+        }
         public string address { get; set; }
 
         public string date { get; set; }
@@ -184,6 +210,7 @@ namespace Cs
                 Console.WriteLine("부서 : " + temp.department);
                 Console.WriteLine("주소 : " + temp.address);
                 Console.WriteLine("입사일 : " + temp.date);
+                Console.WriteLine();
             }
         } 
     }
